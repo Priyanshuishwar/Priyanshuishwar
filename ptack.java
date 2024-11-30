@@ -1,3 +1,4 @@
+!!!!!!!!!!!!!!!!!!!!!Stack implementation using Array!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 class stack {
     static final int max=100;
     int top;
