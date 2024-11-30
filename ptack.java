@@ -1,11 +1,11 @@
-class ptack {
+class stack {
     static final int max=100;
     int top;
     int a[]=new int[max];
     boolean isEmpty(){
         return (top<0);
     }
-    ptack(){
+    stack(){
         top =-1;
     }
     boolean push(int x){
@@ -46,12 +46,12 @@ class ptack {
     }
 }
 
-public class stack {
+public class ptack {
     public static void main(String[] args) {
-        ptack s=new ptack();
+        stack s=new stack();
         s.push(10);
         s.push(20);
-        System.out.println(s.pop()+"Poped from Stack");
+        System.out.println(s.pop()+ "Poped from Stack");
     }
     
 }
